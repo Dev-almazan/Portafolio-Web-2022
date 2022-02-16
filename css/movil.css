@@ -1,0 +1,289 @@
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+.oculto
+{
+    display: none;
+}
+.fondo
+
+{
+    max-width: 90%;
+    margin: 0 auto;
+  
+}
+
+.titulo
+{
+    color: whitesmoke;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.6em;
+}
+
+.tsec
+{
+    color: lightgreen;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2em;
+}
+.fondos
+{
+    background-image: url(pixel.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.img 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+/* BARRA DE NAVEGACION  */
+
+.navbar-nav
+{
+margin-left: 0 auto;
+    text-align: center;
+    opacity: .9;
+    color: whitesmoke;
+}
+
+.navbar-right
+{
+margin-left:  auto;
+    text-align: right;
+    
+}
+
+.navbar{
+    background-color: whitesmoke;
+    color:whitesmoke;
+    opacity: .9;
+}
+
+.fixed-header {
+  top: 0;
+  left: 0;
+  right: 0;
+    z-index:100000;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* INICIO SECCION */
+
+.inicio
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+padding-top: 4%;
+backface-visibility: hidden;
+    display: grid;
+    color: black;
+ padding-bottom: 6%;
+}
+
+.inc
+{
+    
+  max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:3%;
+backface-visibility: hidden;
+  
+}
+.incc
+{
+    
+  max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    padding-top: 10%;
+backface-visibility: hidden;
+  
+}
+/* ACERCA SECCION */
+
+.acerca
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: whitesmoke;
+    display: grid;
+    opacity: .9;
+}
+
+.acc
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    backface-visibility: hidden;
+    text-align: left;
+   
+}
+.ac
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: #2b303c;
+    text-align: left;
+ color: whitesmoke;    
+}
+
+/* HABILIDADES SECCION */
+
+.list-inline-items
+{
+    padding: 2%;
+background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: solid 2px white;
+    text-align: center;
+    justify-content: center;
+}
+
+.habilidad
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+.hab
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    background-color: dimgray;
+    text-align: left;
+      color: whitesmoke;
+}
+.habb
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    background-color: #2b303c !important;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.barras
+{
+        max-width: 100%;
+    height: auto;
+    margin: 1% auto;
+    box-sizing: border-box;
+    padding: 1.5%;
+    background-color: ;
+    display: grid;
+}
+
+
+/* PROYECTOS SECCION */
+
+
+.proyectos
+{
+    
+    background-color: #2b303c !important;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: grid;
+}
+.tarjetas
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5%;
+}
+
+.card
+{
+    max-width: 100%;
+    width: 750px;
+    max-height: 100%;
+    
+}
+
+/* CONTACTO SECCION */
+.contacto
+{
+    
+    background-color: #2b303c !important;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: grid;
+}
+.funo
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+      background-color: whitesmoke!important;
+    text-align: left;
+}
+.fdos
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+      background-color: #2b303c !important;
+    text-align: left;
+}
+

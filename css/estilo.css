@@ -1,0 +1,762 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+p
+{
+   
+    font-size: 1.05em;
+}
+
+.claro
+{
+    color: cornflowerblue;
+}
+.oculto
+{
+    display: none;
+}
+.btn-boton
+{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.fondo
+
+{
+    max-width:100%;
+    margin: 0 auto;
+  
+}
+.container
+{
+padding-top: 5%;
+    color: #2b303c;
+}
+li
+{
+    list-style:none;
+    padding: 1.5%;
+    text-align: center;
+}
+.card-text
+{
+    color:slategray;
+    text-align: left;
+}
+.naranja
+{
+color: cornflowerblue;   
+    
+}
+.resaltes
+{
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.titulo
+{
+    color: whitesmoke;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.3em;
+}
+
+.tsec
+{
+   color: #111717;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2em;
+}
+.fondos
+{
+   background-image: url(portada.jfif);
+    background-attachment: fixed;
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+      -webkit-transition: padding .5s,color 1s,  background 1s;
+}
+  
+.img:hover
+{
+padding: 6%;
+}
+
+#iconos
+{
+     -webkit-transition: padding .5s,color 1s,  background 1s, border 1s; 
+    
+}
+#iconos:hover
+{
+padding: 10%;
+
+}
+
+
+
+/* BARRA DE NAVEGACION  */
+
+.navbar-nav
+{
+margin-left: 0 auto;
+    text-align: center;
+    opacity: .9;
+    color: whitesmoke;
+}
+
+.navbar-right
+{
+margin-left:  auto;
+    text-align: right;
+    
+}
+
+.navbar{
+      background-color: #2b303c !important;  
+    color:whitesmoke;
+  
+  
+}
+.nav-link
+{
+    color: snow;
+}
+
+.fixed-header {
+  top: 0;
+  left: 0;
+  right: 0;
+    z-index:100000;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+
+
+/* INICIO SECCION */
+
+.inicio
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+padding-top: 4%;
+background-color: black;
+    opacity: .8;
+    display: flex;
+    color: #131314;
+ padding-bottom: 14%;
+    
+}
+
+.inc
+{
+    
+  max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:3%;
+backface-visibility: hidden;
+  
+}
+.incc
+{
+    
+  max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    padding-top: 20%;
+backface-visibility: hidden;
+  
+}
+/* ACERCA SECCION */
+
+.acerca
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+   background-color: #2b303c;
+    display: flex;
+color: whitesmoke;
+   
+     
+}
+
+.acc
+{
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    backface-visibility: hidden;
+    text-align: left;
+   
+}
+.ac
+{
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #2b303c;
+    text-align: left;
+ color: whitesmoke;   
+    border-top-right-radius:  25px;
+     border-bottom-right-radius: 25px;
+}
+
+/* HABILIDADES SECCION */
+.mhabilidad
+{
+    background-color: black;
+     padding-top: 5%;
+  opacity: .9;
+    
+}
+.habilidad
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+  padding: 2%;
+background-color: black;
+    display: flex;
+    opacity: .7;
+    
+    padding-bottom: 10%;
+}
+
+
+.list-inline-items
+{
+    padding: 2%;
+
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: solid 2px white;
+    text-align: center;
+    justify-content: center;
+}
+
+.dev-icons
+{
+    padding-top:7.5%;
+}
+
+section
+{
+    padding: 0;
+    margin: 0;
+}
+.hab
+{
+    width: 600px;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    text-align: left;
+      color: whitesmoke;
+}
+.habb
+{
+     width: 600px;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+ 
+    text-align: left;
+    color: whitesmoke;
+}
+
+.barras
+{
+        max-width: 100%;
+    height: auto;
+    margin: 1% auto;
+    box-sizing: border-box;
+    padding: 1.5%;
+   
+    display: flex;
+}
+
+
+/* PROYECTOS SECCION */
+
+.mproyectos
+{
+   background-color: #2b303c !important;
+     padding-top: 5%;
+  
+    
+}
+.porta
+{
+    background-color: #2b303c !important;
+    max-width: 100%;
+    padding-top: 5%;
+}
+.proyectos
+{
+    
+background-color: #2b303c !important;
+    max-width: 100%;
+    height: auto;
+    margin: 1% auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+    padding-top: .5%;
+    display: flex;
+   border-radius: 12px;
+    
+}
+
+.tarjetas
+{
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5%;
+}
+
+.card
+{
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 450px;
+    margin-top: 5%;
+    border-top: 5px solid cornflowerblue;
+    text-align: justify;
+    background-color: #131314 !important;  
+    color:whitesmoke;
+   opacity: .9;
+
+}
+.card-body, card-title
+{
+    text-align: center;
+}
+
+/* CONTACTO SECCION */
+.contacto
+{
+    
+   background-color: black;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    display: flex;
+    opacity: .7;
+}
+
+
+@media (max-width: 575px) 
+{ 
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+p
+{
+   
+    font-size: 1.05em;
+}
+
+.claro
+{
+    color: cornflowerblue;
+}
+.oculto
+{
+    display: none;
+}
+.btn-boton
+{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.fondo
+
+{
+    max-width:100%;
+    margin: 0 auto;
+  
+}
+.container
+{
+padding-top: 5%;
+    color: #2b303c;
+}
+li
+{
+    list-style:none;
+    padding: 1.5%;
+    text-align: center;
+}
+.card-text
+{
+    color:slategray;
+}
+.naranja
+{
+color: cornflowerblue;   
+    
+}
+.resaltes
+{
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.titulo
+{
+    color: whitesmoke;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.9em;
+}
+
+.tsec
+{
+   color: #111717;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.fondos
+{
+   background-image: url(portada.jfif);
+    background-attachment: fixed;
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+
+/* BARRA DE NAVEGACION  */
+
+.navbar-nav
+{
+margin-left: 0 auto;
+    text-align: center;
+    opacity: .9;
+    color: whitesmoke;
+}
+
+.navbar-right
+{
+margin: 0 auto;
+    text-align: center;
+    
+}
+
+.navbar{
+      background-color: #2b303c !important;  
+    color:whitesmoke;
+  
+  
+}
+.nav-link
+{
+    color: snow;
+}
+
+.fixed-header {
+  top: 0;
+  left: 0;
+  right: 0;
+    z-index:100000;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+/* INICIO SECCION */
+
+.inicio
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+padding-top: 50%;
+background-color: black;
+    opacity: .8;
+    display: grid;
+    color: #131314;
+ padding-bottom: 50%;
+    text-align: center;
+    
+}
+
+.inc
+{
+    
+  max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:3%;
+backface-visibility: hidden;
+  
+}
+.incc
+{
+    
+  max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    padding-top: 10%;
+backface-visibility: hidden;
+  
+}
+/* ACERCA SECCION */
+
+.acerca
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+   background-color: #2b303c;
+    display: grid;
+color: whitesmoke;
+   
+     
+}
+
+.acc
+{
+    max-width:100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    backface-visibility: hidden;
+    text-align: left;
+   
+}
+.ac
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #2b303c;
+    text-align: left;
+ color: whitesmoke;   
+    border-top-right-radius:  25px;
+     border-bottom-right-radius: 25px;
+}
+
+/* HABILIDADES SECCION */
+.mhabilidad
+{
+    background-color: black;
+     padding-top: 5%;
+  opacity: .9;
+    
+}
+.habilidad
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+  padding: 2%;
+background-color: black;
+    display: grid;
+    opacity: .7;
+    
+    padding-bottom: 10%;
+}
+
+
+.list-inline-items
+{
+    padding: 2%;
+
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: solid 2px white;
+    text-align: center;
+    justify-content: center;
+}
+
+.dev-icons
+{
+    padding-top:7.5%;
+}
+
+section
+{
+    padding: 0;
+    margin: 0;
+}
+.hab
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    text-align: left;
+      color: whitesmoke;
+}
+.habb
+{
+     width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+ 
+    text-align: left;
+    color: whitesmoke;
+}
+
+.barras
+{
+        max-width: 100%;
+    height: auto;
+    margin: 1% auto;
+    box-sizing: border-box;
+    padding: 1.5%;
+   
+    display: flex;
+}
+
+
+/* PROYECTOS SECCION */
+
+.mproyectos
+{
+   background-color: #2b303c !important;
+     padding-top: 8%;
+  
+    
+}
+.proyectos
+{
+    
+background-color: #2b303c !important;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+    padding-top: 5.5%;
+    display: grid;
+   border-radius: 12px;
+    
+}
+    .carousel-indicators
+    {
+        padding-top: 15%;
+    }
+.tarjetas
+{
+    max-width:100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2.5%;
+}
+
+.card
+{
+    max-width: 100%;
+    
+    max-height: auto;
+    margin-top: 5%;
+    border-top: 5px solid cornflowerblue;
+    text-align: left;
+    background-color: #131314 !important;  
+    color:whitesmoke;
+   opacity: .9;
+padding: 2%;
+}
+.card-body, card-title
+{
+    text-align: center;
+}
+
+/* CONTACTO SECCION */
+.contacto
+{
+    
+   background-color: black;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 12%;
+    padding-top: 12%;
+    display: grid;
+    opacity: .9;
+    padding: 2%;
+}
+
+}
