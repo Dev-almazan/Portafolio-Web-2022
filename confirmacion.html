@@ -26,11 +26,23 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1090331511546124&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
+    <!--  Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1090331511546124');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1090331511546124&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
   <body class="fondos bg-dark" onload="registro();">
       <div class="fondo">
@@ -93,16 +105,6 @@
     function registro()
     {
 
-        !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1090331511546124');
-            fbq('track', 'PageView');
             fbq('track', 'CompleteRegistration');
 
         /*EAANrdxY0ewMBAPtSwsxZBfZCfKXDPqKZA69lpk6USuyPmNb3qctTMCmXgdpX4TSExI3uS0XZBZA1mB6zV3jexdZAXrLxE40XYcX
@@ -112,17 +114,8 @@
     function telefono()
     {
 
-        !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1090331511546124');
-            fbq('track', 'PageView');
-            fbq('track', 'Contact');
+
+        fbq('track', 'Lead');
 
         /*EAANrdxY0ewMBAPtSwsxZBfZCfKXDPqKZA69lpk6USuyPmNb3qctTMCmXgdpX4TSExI3uS0XZBZA1mB6zV3jexdZAXrLxE40XYcX
         8RgcgAoCVvLZATSF9Ct6gEwR2x3jJ5tnDzYkeEnrx5KlQAALaWfQwbX8bniNMZCsXRwaIRIb2ggPgdhDbtNF9*/
