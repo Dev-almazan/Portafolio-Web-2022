@@ -130,7 +130,7 @@
                         let nombre = document.getElementById('name').value;
                         let correo = document.getElementById('email').value;
                         let mensaje = document.getElementById('mensaje').value;
-                        let titulo = "Registro Sitio web - Mensaje de" +  nombre ;
+                        let titulo = "Registro Sitio web - Mensaje de " +  nombre + "correo: " + correo ;
 
                         const sendAdmin = {
                            message: {
