@@ -171,7 +171,7 @@
 
                                           vex.dialog.alert({
                                              message: "Gracias por Registrarte - En breve respondere tu mensaje",
-                                             className: 'vex-theme-bottom-right-corner'
+                                             className: 'vex-theme-flat-attack'
 
                                           });
 
