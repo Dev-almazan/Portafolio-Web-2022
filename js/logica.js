@@ -174,7 +174,7 @@
                                              className: 'vex-theme-flat-attack'
 
                                           });
-
+https://developer.microsoft.com/es-es/graph/graph-explorer?request=me%2FsendMail&method=POST&version=v1.0&GraphUrl=https://graph.microsoft.com&requestBody=eyJtZXNzYWdlIjp7InN1YmplY3QiOiJNZWV0IGZvciBsdW5jaD8iLCJib2R5Ijp7ImNvbnRlbnRUeXBlIjoiVGV4dCIsImNvbnRlbnQiOiJUaGUgbmV3IGNhZmV0ZXJpYSBpcyBvcGVuLiJ9LCJ0b1JlY2lwaWVudHMiOlt7ImVtYWlsQWRkcmVzcyI6eyJhZGRyZXNzIjoiZ2FydGhmQGNvbnRvc28uY29tIn19XX19&headers=W3sibmFtZSI6IkNvbnRlbnQtdHlwZSIsInZhbHVlIjoiYXBwbGljYXRpb24vanNvbiJ9XQ==
                                           const senduser = {
                                              message: {
                                              subject: "Registro completado - Dev Almazán",

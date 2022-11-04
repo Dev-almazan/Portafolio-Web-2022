@@ -12,6 +12,14 @@ p
     font-size: 1.05em;
 }
 
+.proy
+{
+    position: absolute;
+    left: 35%;
+    bottom: -3.5%;
+  
+}
+
 .claro
 {
     color: cornflowerblue;
