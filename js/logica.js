@@ -126,98 +126,68 @@
                if(validar() == true)
                {
 
+                         // Enviar datos a firebase nube
 
-                        let nombre = document.getElementById('name').value;
-                        let correo = document.getElementById('email').value;
-                        let mensaje = document.getElementById('mensaje').value;
-                        let titulo = "Registro Sitio web - Mensaje de " +  nombre + "correo: " + correo ;
+                        let ncompleto = document.getElementById('name').value;
+                        let email = document.getElementById('email').value;
+                        let detalle = document.getElementById('mensaje').value;
+                  
 
-                        const sendAdmin = {
-                           message: {
-                             subject: titulo,
-                             body: {
-                               contentType: 'Text',
-                               content: mensaje
-                             },
-                             toRecipients: [
-                               {
-                                 emailAddress: {
-                                   address: "ernest_almazan@outlook.com"
-                                 }
-                               }
-                             ]
-                           }
+                        const firebaseConfig = {
+                           apiKey: "AIzaSyB08DAfVckPRoGpMaWgeFdxPG3kQSmjjbo",
+                           authDomain: "usuarios-91d7c.firebaseapp.com",
+                           projectId: "usuarios-91d7c",
+                           storageBucket: "usuarios-91d7c.appspot.com",
+                           messagingSenderId: "1023743689782",
+                           appId: "1:1023743689782:web:4c88fe588c0fa1c0060497",
+                           measurementId: "G-FL6DYB0QJL"
                          };
-   
+                       
+                       // Initialize Firebase
 
-
-                     const url = 'https://graph.microsoft.com/v1.0/me/sendMail';
-
-                     let token = 'Bearer EwCIA8l6BAAUkj1NuJYtTVha+Mogk+HEiPbQo04AAZKAfGwxw+mg0GcvDL+Y1+41WBxSQSUSERHrjyli0LGFKzlztsImrIGM7tKI9Vd2Uh6G7bRizK8aSsPAvHwIbpHhS5fjd7uJogD7+MK+tk+mNV8KhQ/oIOcMpwnsfvtxkMBK0tCZvIv/2dts/aap6kly7HEJExwgEBjz73UkizhHxAtThR8xqncb97jVI2suL37glDSQkZVr7ycT3EAIYpzmd9E3PVoLlQRz94RSvHsR94Q6uakX5yalbaVO+hhPwbeWxs05PLO00DfcBWpquDjWBrFlj/lQJZrMH5DA9TwIrlAi41V+skdu4ZNtTmfTfaA7e+pGtDtfwy1lD1EVpSADZgAACMog8TPFV690WALMpYT48cchM6pwNZAwZ5MRDY51X6iRd/Wx68uS6WY6xnC2FayZ5kcAayGvOB7kllT1AV7RHQ0ONE4bs2Ceg0gN92w0+1WTVROrBxmTOhFs777PHfIDk0WZ4Ml5bLUBO/uHQJtc7kkZf5wWuy7mKZ6RRcij7xc1qgBOhzyffz48zGRj+Y90bMD6hR20tnBVDxAb4yrncjd2UZO3MqaqARkX/y0eTO9uCaDRxYmFA5bkTSXDLIEReUB+GyBXUNrmB0bhJlk3hDtWfjYRli+cQog/Lq4ao2jX8YkrLpSJ14M7u3aHKSUPbDEU4j77iz4CCYbI+VspQwtXKacG63DF4Zl/voCFNAXgONXrq4qRAWVrxrxGD5dUCe5c0WllAkL1QzeIkneoW+rWbykb3gdUYh/Xgt6axbJdAg4t1AG4P34G49FUHfk7Uvhx5v2AUQl+CocKoOfNF1wMvZROBOXBzgEzxXTWDIWrO3b/rftWo8LCXFTuJjn6su94DlvCSgPY1hH9cIPVpEu8CllgrvCQfVyLXrvVnxfel44av3gb35Jlaqn1i62wG7RkyBNKevora7f5Ygpr0hm5dZJh6fVVem1ZQefsA5syJTxwOzfO729Jpd+fKfKx6SyUBeR8p1GEfLH1XqVDic0Xtm6stxcxLEgtq3Nr8k2LbRdKsvyamjKfDRtNu+VSxQqxrTCO+j0nqBxqOlyJ3MiXxWfop5yesSdBDO3utbplPTNdVvHU/DfEaoRgRhPx/3yShEWyka+1BrnS0WLMwLUZOwBZqYjMMR1blZJbTQKzBHuTAg==';
-
+                              if (!firebase.apps.length) {
+                                 firebase.initializeApp(firebaseConfig);
+                              }else {
+                                 firebase.app(); // if already initialized, use that one
+                              }
                      
-                     fetch(url,{
-                        method : 'POST',
-                        body : JSON.stringify(sendAdmin),
-                        headers: {
-                              'content-type': 'application/json',
-                              'Authorization': token
-                        }
-                     }).then((respuesta) => {
 
+                        // Initialize Cloud Firestore and get a reference to the service
+                        const db = firebase.firestore();
 
-                              if(respuesta.status == 202)
-                              {
+                        db.collection("clientes").add({
+                           nombre: ncompleto,
+                           correo: email,
+                           mensaje: detalle
+                       })
+                       .then((respuesta) => {
 
-                                          vex.dialog.alert({
-                                             message: "Gracias por Registrarte - En breve respondere tu mensaje",
-                                             className: 'vex-theme-flat-attack'
+                           
+                                    if(respuesta.id !== null)
+                                    {
 
-                                          });
-                                          const senduser = {
-                                             message: {
-                                             subject: "Registro completado - Dev Almazán",
-                                             body: {
-                                                contentType: 'Text',
-                                                content: "Gracias por Registrarte - En breve respondere tu mensaje"
-                                             },
-                                             toRecipients: [
-                                                {
-                                                   emailAddress: {
-                                                   address: correo
-                                                   }
-                                                }
-                                             ]
-                                             }
-                                          };
-                                  
+                                       vex.dialog.alert({
+                                       message: "Gracias por registrarte, nos contactaremos contigo enseguida.",
+                                       className: 'vex-theme-flat-attack'
 
-                                          fetch(url,{
-                                             method : 'POST',
-                                             body : JSON.stringify(senduser),
-                                             headers: {
-                                                   'content-type': 'application/json',
-                                                   'Authorization': token
-                                             }
-                                          });
+                                       });
+                                                         
+                                       document.getElementById("post").reset();		
+      
+                                    }
+                                    else
+                                    {
+                                          console.log(respuesta);
+                                    }
 
-                              }
+                        })
+                        .catch((error) => {
 
-                              else
-                              {
-                                    console.log(respuesta.ok);
-                                    console.log(respuesta.status);
-                                    console.log(respuesta.json());
-                                 
-                              }
+                                 console.log(error);
 
-                     })
-                     .catch((error) => {
+                        });
 
-                           console.log(error);
-
-                     });
-               }
+               }   
 
          });
 
