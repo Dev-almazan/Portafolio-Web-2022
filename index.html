@@ -6,12 +6,13 @@
   <head>
       <meta charset="UTF-8" />
       <link rel="icon" type="image/x-icon" href="img/perfil.jfif" />
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
       <meta name="description" content="Bienvenido a A mi Portafolio Web - Desarrollador Web">
       <meta name="keywords" content="programacion desarrollo web diseño web">
       <meta name="author" content="Ernesto Almazan Resendiz">
-      <title>Ernesto Almazan Portafolio Web</title>
+      <title>Dev Almazan Portafolio Web</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="img/principal.png" type="image/x-icon" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
       <link rel="stylesheet" href="css/libs/animate.css">
@@ -26,7 +27,11 @@
       <link rel="stylesheet"  href="vex/css/vex-theme-flat-attack.css" />
 
   </head>
-  <body class="fondos bg-dark">
+  <body class="fondos bg-dark" onload="datos();">
+    
+    <div id="cargando">
+   <i class="fab fa-react fa-3x rotate text-white" ></i>
+</div>
       <div class="fondo">
 
     
@@ -59,231 +64,18 @@
 <div class="pleca"></div>
 
     
-    
-    
+      
     
   <div class="mproyectos" id="portafolio">
+
           <h1 class="text-center naranja">PORTAFOLIO</h1>
-          <P class="text-white text-center">Estos son algunos proyectos que he desarrollado desde cero tanto el front end como el back end.
-          </P>
-      <hr>
-     
-     
-<!-- Carousel wrapper -->
-<div
-  id="carouselBasicExample"
-  class="carousel slide carousel-fade"
-  data-mdb-ride="carousel"
->
-  <!-- Indicators -->
-  <ol class="carousel-indicators naranja" >
-    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" style="border-radius: 40px; width:1px; "></li>
-    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" style="border-radius: 40px; width:1px; " ></li>
-     <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" style="border-radius: 40px; width:1px; " ></li>
-  </ol>
+          <p class="text-white text-center">Estos son algunos proyectos que he desarrollado desde cero tanto el front end como el back end.</p><hr>
+ 
+        <div class="container">
+          <div class="row col-md-12" id="tarjetas"></div> 
+        </div>
 
-  <!-- Inner -->
-  <div class="carousel-inner">
-    <!-- Single item -->
-    <div class="carousel-item active">
-    <section class="proyectos ">   
-
-                 <div class="tarjetas">
-<div class="card">
-  <img src="img/Captura.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Menú Interactivo </h5><hr>
-    <p class="card-text text-left">
-    Esto es un portal donde pueden  consultar información personal interno SKY, desarrollado Html, Css, Jquery, Java script y Bootstrap 4.
-    </p>
-   <ul class="list-inline dev-icons">
-       <li class="list-inline-item"><a href="https://frosty-bell-4d2001.netlify.app/#" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-                </ul>
   </div>
-</div>
-          </div>
-   
-          
-           <div class="tarjetas">
-<div class="card">
-  <img src="img/hnd.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Sitio Web Comercial</h5><hr>
-    <p class="card-text">
- SItio web comercial desarrollado con Html, Css, Java script y Bootstrap 4.
-    </p>
-      <ul class="list-inline dev-icons">
-                <li class="list-inline-item"><a href="https://hndmbmexico.com.mx/" class="btn btn-primary proy">ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-        
-               
-                </ul>
-  </div>
-</div>
-          </div>
-          
-           <div class="tarjetas">
-<div class="card">
-  <img src="img/portal.jpg" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Portal Interactivo </h5><hr>
-    <p class="card-text text-left">
-    Esto es un portal donde pueden  consultar información personal interno SKY, desarrollado Html, Css, Jquery, Java script y Bootstrap 4.
-    </p>
-   <ul class="list-inline dev-icons">
-       <li class="list-inline-item"><a href="https://boring-meitner-e279c8.netlify.app/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-                </ul>
-  </div>
-</div>
-          </div>
-      
-      
-      </section>
-
-    </div>
-
-    <!-- Single item dos  -->
-    <div class="carousel-item">
-  <section class="proyectos ">   
-                      <div class="tarjetas">
-<div class="card">
-  <img src="img/inmo.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Sitio Web Inmobiliaria</h5><hr>
-    <p class="card-text">
-Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para mostrar las propiedades por medio de consultas a la BD. 
-    </p>
-      <ul class="list-inline dev-icons">
-                <li class="list-inline-item"><a href="https://www.inveract.com.mx/" class="btn btn-primary proy">ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-        
-               
-                </ul>
-  </div>
-</div>
-          </div>
-
-   
-          
-           <div class="tarjetas">
-<div class="card" > 
-  <img src="img/sistema.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Dashboard Web</h5><hr>
-    <p class="card-text">
-     Aplicación Web desarrollada con Php, Mysql Y Java Script, contiene moduló de análisis de información incluyendo tablas, gráficos.
-    </p>
-     
-       <a href="https://gempresarialpm.mx/GEMP/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a>
-               
-                </ul>
-  </div>
-</div>
-          </div>
-          
-           <div class="tarjetas">
-           <div class="card">
-  <img src="img/matcha.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Landing Page</h5><hr>
-    <p class="card-text text-left">
-      Landing page desarrollado con HTML, Html, Java Script Bootstrap 4.
-    </p>
-   <ul class="list-inline dev-icons">
-       <li class="list-inline-item"><a href="https://pjfinancial.com.mx/auto-millon-google/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-                </ul>
-  </div>
-</div>
-
-          </div>
-      
-      
-      </section>
-    </div>
-
-
-    <!-- Single item tres  -->
-    <div class="carousel-item">
-      <section class="proyectos ">   
-
-                     <div class="tarjetas">
-<div class="card">
-  <img src="img/sfs.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Sitio Web Empresarial</h5><hr>
-    <p class="card-text">
- Maquetación y programación web, desarrollado con Html, Css y Java script y Bootstrap 4.
-    </p>
-      <ul class="list-inline dev-icons">
-                <li class="list-inline-item"><a href="https://capitalplannig.com.mx/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-        
-               
-                </ul>
-  </div>
-</div>
-          </div>
-          
-
-          <div class="tarjetas">
-<div class="card" > 
-  <img src="img/simulador.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes text-center">Simulador de crédito</h5><hr>
-    <p class="card-text">
-      Simulador de crédito financiero desarrollado Html, Css Java script y Bootstrap 4.
-    </p>
-      <ul class="list-inline dev-icons">
-       <li class="list-inline-item"><a href="https://pjfinancial.com.mx/credito-autogarantia/simulador/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-               
-                </ul>
-  </div>
-</div>
-          </div>
-   
-           <div class="tarjetas">
-           <div class="card">
-  <img src="img/servihogar.PNG" class="card-img-top" width="600px">
-  <div class="card-body">
-    <h5 class="card-title resaltes  text-center">Sitio Web Comercial</h5><hr>
-    <p class="card-text">
- SItio web comercial desarrollado con Html, Css, Java script y Bootstrap 4.
-    </p>
-      <ul class="list-inline dev-icons">
-                <li class="list-inline-item"><a href="https://determined-meitner-72a725.netlify.app/" class="btn btn-primary proy">Ver proyecto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-</svg></a></li>
-        
-               
-                </ul>
-  </div>
-</div>
-
-          </div>
-          
-      
-      </section>
-  
-    </div>
-  </div>
-
-</div>
-<!-- Carousel wrapper -->
-         
-    </div> 
       <div class="porta"></div>
    
            <div class="mhabilidad" id="habilidades" >
@@ -356,7 +148,19 @@ Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para 
                 </div>
                 </div> 
                 </div>         
-                </div>     
+                </div>   
+                <div class="barras">
+                
+                  <div class="col">REACT JS </div>
+                  <div class="col">
+                  <div class="progress" style="height: 20px">                                   
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar"style="width: 78%"aria-valuenow="78"aria-valuemin="0" aria-valuemax="100">
+                  75%
+                  </div>
+                  </div> 
+                  </div>         
+                  </div>     
+                
             
                      
              
@@ -369,6 +173,7 @@ Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para 
                         <li class="list-inline-item"><i class="fab fa-css3 fa-4x" id="iconos"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square fa-4x" id="iconos"></i></li>
                      <li class="list-inline-item"><i class="fab fa-bootstrap fa-4x" id="iconos"></i></li>
+                     <li class="list-inline-item"><i class="fab fa-react fa-4x" id="iconos"></i></li>      
                     </ul>  
 
           
@@ -428,6 +233,17 @@ Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para 
                 </div> 
                 </div>         
                 </div> 
+                <div class="barras">
+                
+                  <div class="col"> FIREBASE </div>
+                  <div class="col">
+                  <div class="progress " style="height: 20px">                                   
+                  <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar"style="width: 95%"aria-valuenow="95"aria-valuemin="0" aria-valuemax="100">
+                  95%
+                  </div>
+                  </div> 
+                  </div>         
+                  </div> 
           
             
                 <center>
@@ -435,7 +251,8 @@ Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para 
                 <li class="list-inline-item"><i class="fab fa-php fa-4x" id="iconos"></i></li>
                 <li class="list-inline-item"><i class="fas fa-database fa-4x" id="iconos"></i></li>
                 <li class="list-inline-item"><i class="fab fa-github fa-4x" id="iconos"></i></li>
-                  <li class="list-inline-item"><i class="fab fa-cpanel fa-4x" id="iconos"></i></li>    
+                  <li class="list-inline-item"><i class="fab fa-cpanel fa-4x" id="iconos"></i></li>  
+                 
                 </ul>
                 </center>    
 
@@ -623,4 +440,5 @@ Sitio web con un módulo de propiedades el cual desarrolle con PHP Y MYSQL para 
     );
 
   </script>
-</html>
+  <script type="text/javascript" src="js/data.js"></script>
+  </html>

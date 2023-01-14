@@ -1,5 +1,6 @@
 
 
+  
             // AL INGRESAR A LA SECCION ACERCA
             var acerca = document.getElementById("acerca");
 
@@ -191,3 +192,5 @@
 
          });
 
+
+      

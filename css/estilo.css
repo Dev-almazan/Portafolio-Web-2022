@@ -42,7 +42,7 @@ p
 }
 .container
 {
-padding-top: 5%;
+padding-top: 0%;
     color: #2b303c;
 }
 li
@@ -61,7 +61,36 @@ li
 color: cornflowerblue;   
     
 }
+#cargando
+{
+background-color: rgba(14, 16, 19, 0.99);
+height: 100%;
+position: fixed !important;
+width: 100%;
+z-index: 9999;
 
+}
+#cargando i
+{
+left: 45%;
+position: fixed;
+top: 45%;
+    width: 80px;
+
+}
+.rotate {
+    animation: rotation 2s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+}
 
 .titulo
 {
@@ -321,8 +350,8 @@ section
 .mproyectos
 {
    background-color: #2b303c !important;
-     padding-top: 5%;
-  
+     padding-top: 3%;
+    padding-bottom: 2%;
     
 }
 .porta
@@ -330,6 +359,7 @@ section
     background-color: #2b303c !important;
     max-width: 100%;
     padding-top: 5%;
+    padding-bottom: 3%;
 }
 .proyectos
 {
@@ -431,7 +461,7 @@ p
 }
 .container
 {
-padding-top: 5%;
+padding-top: 0%;
     color: #2b303c;
 }
 li
@@ -724,7 +754,7 @@ background-color: #2b303c !important;
     max-width:100%;
     height: auto;
     margin: 0 auto;
-    padding: 2.5%;
+    padding-bottom: 5%;
 }
 
 .card
