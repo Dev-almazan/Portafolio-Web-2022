@@ -12,9 +12,9 @@
                 {
                     "id_proyecto": 2,
                     "name": "UNEA Aliat",
-                    "tecs": "HTML CSS BOOTSTRAP JS PHP ",
-                    "description" : "Landing page para agencia en una sola pagina consumo de API REST Aliat. .",
-                    "url": "https://unea.edu.mx/iniciamos-clases/?utm_source=ppc&utm_content=presencial",
+                    "tecs": "HTML CSS BOOTSTRAP JS PHP -CONSUMO DE API",
+                    "description" : "Landing page en una sola pagina consumo de API REST desarrollada 100% nativamente.",
+                    "url": "https://dev-almazan-landing-page.netlify.app/",
                     "img": "1.png",
                     "category" : "Sitio Web",
                     "size" : 2022
