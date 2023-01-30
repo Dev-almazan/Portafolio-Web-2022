@@ -10,6 +10,36 @@
             const data =[
 
                 {
+                    "id_proyecto": 3,
+                    "name": "Ecommerce",
+                    "tecs": "HTML CSS BOOTSTRAP JS REACT JS",
+                    "description" : "Ecommerce desarrollada de forma nativacon bootstrap 5 & react js incluyendo detalle producto y carrito de compras.",
+                    "url": "https://dev-almazan-ecommerce.netlify.app/",
+                    "img": "2.png",
+                    "category" : "App Web",
+                    "size" : 2023
+                },
+                {
+                    "id_proyecto": 9,
+                    "name": "Ecommerce",
+                    "tecs": "HTML CSS BOOTSTRAP JS PHP Y MYSQL",
+                    "description" : "Ecommerce desarrollada de forma nativa administrador de productos desarrollado en HTML, CSS, Bootstrap 4, Java Script, PHP Y MYSQL.",
+                    "url": "https://hndmbmexico.com.mx/",
+                    "img": "9.png",
+                    "category" : "App Web",
+                    "size" : 2023
+                },
+                {
+                    "id_proyecto": 8,
+                    "name": "Portal Asistencias SKY",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
+                    "url": "https://boring-meitner-e279c8.netlify.app/",
+                    "img": "8.png",
+                    "category" : "Sitio Web",
+                    "size" : 2022
+                },
+                {
                     "id_proyecto": 2,
                     "name": "UNEA Aliat",
                     "tecs": "HTML CSS BOOTSTRAP JS PHP -CONSUMO DE API",
@@ -20,46 +50,6 @@
                     "size" : 2022
                 },
                 {
-                    "id_proyecto": 3,
-                    "name": "Ecommerce",
-                    "tecs": "HTML CSS BOOTSTRAP JS REACT JS",
-                    "description" : "Ecommerce desarrollada con react js utilizando SPA.",
-                    "url": "https://dev-almazan-ecommerce.netlify.app/",
-                    "img": "2.png",
-                    "category" : "App Web",
-                    "size" : 2023
-                },
-                {
-                    "id_proyecto": 4,
-                    "name": "Menú Interactivo",
-                    "tecs": "HTML CSS BOOTSTRAP JS JQUERY",
-                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
-                    "url": "https://dev-almazan-directorio.netlify.app/",
-                    "img": "3.png",
-                    "category" : "App Web",
-                    "size" : 2021
-                },
-                {
-                    "id_proyecto": 5,
-                    "name": "API FB ADS",
-                    "tecs": "JAVA SCRIPT PHP CURL ",
-                    "description" : "Consumiendo API REST FACEBOOK enviando la informacion de un form a mi API y posterior enviarlo a API de facebook",
-                    "url": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads",
-                    "img": "4.png",
-                    "category" : "Integracion Web",
-                    "size" : 2022
-                },
-                {
-                    "id_proyecto": 6,
-                    "name": "Servi Hogar",
-                    "tecs": "HTML CSS BOOTSTRAP JS JQUERY PHP",
-                    "description" : "Sitio web comercial en una sola pagina",
-                    "url": "https://dev-almazan-servihogar.netlify.app/",
-                    "img": "6.png",
-                    "category" : "Sitio Web",
-                    "size" : 2021
-                },
-                {
                     "id_proyecto": 7,
                     "name": "Matcha",
                     "tecs": "HTML CSS BOOTSTRAP JS",
@@ -68,6 +58,16 @@
                     "img": "7.png",
                     "category" : "Sitio Web",
                     "size" : 2020
+                },
+                {
+                    "id_proyecto": 5,
+                    "name": "API FB ADS",
+                    "tecs": "JAVA SCRIPT PHP CURL - Consumo de APIS REST",
+                    "description" : "Consumiendo API REST FACEBOOK enviando la informacion de un form a mi API y posterior enviarlo a API de facebook",
+                    "url": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads",
+                    "img": "4.png",
+                    "category" : "Integracion Web",
+                    "size" : 2022
                 }
             ];
             
