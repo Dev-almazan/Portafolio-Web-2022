@@ -23,41 +23,31 @@
                     "id_proyecto": 9,
                     "name": "Ecommerce",
                     "tecs": "HTML CSS BOOTSTRAP JS PHP Y MYSQL",
-                    "description" : "Ecommerce desarrollada de forma nativa administrador de productos desarrollado en HTML, CSS, Bootstrap 4, Java Script, PHP Y MYSQL.",
+                    "description" : "Ecommerce desarrollada de forma nativa administrador de productos desarrollado en HTML, CSS, Bootstrap 4, JS, PHP Y MYSQL.",
                     "url": "https://hndmbmexico.com.mx/",
                     "img": "9.png",
                     "category" : "App Web",
                     "size" : 2023
                 },
                 {
-                    "id_proyecto": 8,
-                    "name": "Portal Asistencias SKY",
-                    "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
-                    "url": "https://boring-meitner-e279c8.netlify.app/",
-                    "img": "8.png",
-                    "category" : "Sitio Web",
-                    "size" : 2022
-                },
-                {
                     "id_proyecto": 2,
                     "name": "UNEA Aliat",
-                    "tecs": "HTML CSS BOOTSTRAP JS PHP -CONSUMO DE API",
+                    "tecs": "HTML CSS BOOTSTRAP JS PHP",
                     "description" : "Landing page en una sola pagina consumo de API REST desarrollada 100% nativamente.",
                     "url": "https://dev-almazan-landing-page.netlify.app/",
                     "img": "1.png",
                     "category" : "Sitio Web",
-                    "size" : 2022
+                    "size" : 2023
                 },
                 {
                     "id_proyecto": 7,
-                    "name": "Matcha",
+                    "name": "Star Wars API",
                     "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description" : "Landing page para agencia en una sola pagina desarrollado con envio de correo electronico .",
-                    "url": "https://dev-almazan-matcha.netlify.app/",
+                    "description" : "Vista para consumir el api de star wars y mostrar los vehiculos de la serie. Consumida con fetch js y maquetada con Bootstrap.",
+                    "url": "https://dev-almazan-api-star-wars.netlify.app/",
                     "img": "7.png",
-                    "category" : "Sitio Web",
-                    "size" : 2020
+                    "category" : "Integración Web",
+                    "size" : 2023
                 },
                 {
                     "id_proyecto": 5,
@@ -68,7 +58,18 @@
                     "img": "4.png",
                     "category" : "Integracion Web",
                     "size" : 2022
+                },
+                {
+                    "id_proyecto": 8,
+                    "name": "Portal Asistencias SKY",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
+                    "url": "https://boring-meitner-e279c8.netlify.app/",
+                    "img": "8.png",
+                    "category" : "Sitio Web",
+                    "size" : 2022
                 }
+               
             ];
             
                                         
