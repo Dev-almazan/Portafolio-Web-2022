@@ -34,30 +34,30 @@
                     "name": "UNEA Aliat",
                     "tecs": "HTML CSS BOOTSTRAP JS PHP",
                     "description" : "Landing page en una sola pagina consumo de API REST desarrollada 100% nativamente.",
-                    "url": "https://dev-almazan-landing-page.netlify.app/",
+                    "url": "https://www.etac.edu.mx/estudia-hoy",
                     "img": "1.png",
                     "category" : "Sitio Web",
                     "size" : 2023
                 },
                 {
                     "id_proyecto": 7,
-                    "name": "Star Wars API",
+                    "name": "Sección Ebooks Aliat Universidades",
                     "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description" : "Vista para consumir el api de star wars y mostrar los vehiculos de la serie. Consumida con fetch js y maquetada con Bootstrap.",
-                    "url": "https://dev-almazan-api-star-wars.netlify.app/",
+                    "description" : "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de cada ebook almacenado en hubdb de hubspot",
+                    "url": "https://www.etac.edu.mx/descargables",
                     "img": "7.png",
-                    "category" : "Integración Web",
+                    "category" : "Sección Web",
                     "size" : 2023
                 },
                 {
                     "id_proyecto": 5,
-                    "name": "API FB ADS",
-                    "tecs": "JAVA SCRIPT PHP CURL - Consumo de APIS REST",
-                    "description" : "Consumiendo API REST FACEBOOK enviando la informacion de un form a mi API y posterior enviarlo a API de facebook",
-                    "url": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads",
+                    "name": "Portal Web Planes de estudio",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description": "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de planes de estudios almacenados en una base de datos.",
+                    "url": "https://aliatuniversidades.com.mx/plan-estudios/?utm_company=ETAC",
                     "img": "4.png",
-                    "category" : "Integracion Web",
-                    "size" : 2022
+                    "category": "Sitio Web",
+                    "size" : 2023
                 },
                 {
                     "id_proyecto": 8,
