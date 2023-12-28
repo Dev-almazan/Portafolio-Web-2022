@@ -41,22 +41,22 @@
                 },
                 {
                     "id_proyecto": 7,
-                    "name": "Sección Ebooks Aliat Universidades",
+                    "name": "ETAC Aliat",
                     "tecs": "HTML CSS BOOTSTRAP JS",
                     "description" : "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de cada ebook almacenado en hubdb de hubspot",
                     "url": "https://www.etac.edu.mx/descargables",
                     "img": "7.png",
-                    "category" : "Sección Web",
+                    "category": "Sección Ebooks",
                     "size" : 2023
                 },
                 {
                     "id_proyecto": 5,
-                    "name": "Portal Web Planes de estudio",
+                    "name": "Planes de estudio",
                     "tecs": "HTML CSS BOOTSTRAP JS",
                     "description": "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de planes de estudios almacenados en una base de datos.",
                     "url": "https://aliatuniversidades.com.mx/plan-estudios/?utm_company=ETAC",
                     "img": "4.png",
-                    "category": "Sitio Web",
+                    "category": "Portal Web",
                     "size" : 2023
                 },
                 {
